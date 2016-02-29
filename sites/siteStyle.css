@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.02.2016, 14:27:31
+    Author     : dario
+*/
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../images/background.jpg");
+}
+#header {
+    height: 100px;
+    background-color: #86b300;
+    box-shadow: 0px 9px 40px 0px rgba(0,0,0,1);
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: all;
+    padding: 5px;
+}
+#logo {
+    height: 90px;
+    width: 310px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: gray;
+    padding: 5px;
+    float: left;
+}
+#login {
+    background-color: white;
+    height: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    
+    border-radius: 45px 45px 45px 45px;
+}
+#headerSpace {
+    height: 100px;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+#inner {
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 1310px;
+    overflow: hidden;
+}
+#leftNav {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    float: left;
+    width: 300px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    position:relative;
+    z-index: 0;
+}
+#content {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 700px;
+    background-color: white;
+    float: left;
+    position:relative;
+    z-index: 0;
+}
+#rightBar {
+    margin-top: 5px;
+    float: right;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    pointer-events: all;
+    z-index: 1;
+}
+#overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+#innerOverlay {
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 1350px;
+    overflow: hidden;
+    pointer-events: none;
+}
+div.clients {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+div.key {
+    transition: background-color 0.5s ease;
+    height: 30px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: lightgray;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+}
+div.key:hover {
+    height: 30px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: greenyellow;
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center; 
+    text-decoration: none;
+}
+div.crt {
+    transition: background-color 0.5s ease;
+    height: 30px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: lightgray;
+    float: left;
+    padding: 5px;
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+}   
+div.crt:hover {
+    height: 30px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: greenyellow;
+    float: left;
+    padding: 5px;
+    text-align: center; 
+    text-decoration: none;
+}
+div.invalidate {
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: lightgray;
+    float: right;
+    color: black;
+    text-align: center; 
+    text-decoration: none;
+    padding: 5px;
+}
+div.invalidate:hover {
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #ff3333;
+    float: right;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    padding: 5px;
+}
+a.box {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    background-color: background;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    color: white;
+}
